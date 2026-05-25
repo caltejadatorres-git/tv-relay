@@ -13,7 +13,7 @@ app.post('/webhook', async (req, res) => {
     try {
 
         const telegramUrl =
-            `https://api.telegram.org/bot8503934471:AAGTzCt6wbGfmnsICzl60655dZIwOoO-sx4/sendMessage`;
+            `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
 
         await fetch(telegramUrl, {
             method: 'POST',
