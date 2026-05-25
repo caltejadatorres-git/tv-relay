@@ -1,0 +1,9 @@
+{
+  "name": "tv-relay",
+  "version": "1.0.0",
+  "main": "relay.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "node-fetch": "^2.6.9"
+  }
+}
